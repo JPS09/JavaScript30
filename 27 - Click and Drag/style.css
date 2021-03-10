@@ -26,7 +26,10 @@ body {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   cursor: pointer;
   transition: all 0.2s;
   transform: scale(0.98);
@@ -34,7 +37,7 @@ body {
   position: relative;
   background: rgba(255,255,255,0.1);
   font-size: 0;
-  perspective: 500px;
+  perspective: 340px;
 }
 
 .items.active {
